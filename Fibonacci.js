@@ -13,11 +13,9 @@ var Fibonacci = function(numberofterms) {
 	} 
 	if (numberofterms == 1) {
 		console.log([1]);
-	}
-	if (numberofterms == 2) {
+	} else if (numberofterms == 2) {
 		console.log([1,1]);
-	}
-	else {
+	} else {
 	console.log(fibonacciarray);
 	}
 };
